@@ -66,6 +66,8 @@ gem 'simple_form'
 # add some symbols
 gem "font-awesome-rails"
 
+gem 'devise'
+
 group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15', '< 4.0'

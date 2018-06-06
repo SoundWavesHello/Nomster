@@ -66,7 +66,14 @@ gem 'simple_form'
 # add some symbols
 gem "font-awesome-rails"
 
+# add user database functionality
 gem 'devise'
+
+# add geocoding ability
+gem 'geocoder'
+
+#modify environment
+gem 'figaro'
 
 group :test do
   # Adds support for Capybara system testing and selenium driver

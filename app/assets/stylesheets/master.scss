@@ -24,6 +24,30 @@ h1, h2, h3, h4, h5, h6 {
   	letter-spacing: -0.3px;
 }
 
+.carousel{
+
+  box-shadow: 0px 3px 8px #2a2a2a;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+
+.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
+  height: 550px;
+  width: 100%
+}
+
+.carousel-caption {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} 
+
 .booyah-box{
   	-webkit-box-shadow:1px 1px 2px 0 #d0d0d0;
   	-moz-box-shadow:1px 1px 2px 0 #d0d0d0;
